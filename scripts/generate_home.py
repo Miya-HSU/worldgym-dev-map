@@ -6,7 +6,7 @@ folders = sorted([f for f in os.listdir() if f.startswith('2025-') and os.path.i
 
 # 轉換標題顯示
 def format_title(folder):
-    return f"🦍🌍 WorldGym HZ 每日開發地圖 {folder} 💰"
+    return f"🦍🌍 WorldGym TSH 每日開發地圖 {folder} 💰"
 
 html_head = '''<!DOCTYPE html>
 <html lang="zh-Hant">
@@ -23,7 +23,7 @@ html_head = '''<!DOCTYPE html>
   </style>
 </head>
 <body>
-  <h1>🦍🌍 WorldGym HZ 地圖首頁</h1>
+  <h1>🦍🌍 WorldGym TSH 地圖首頁</h1>
   <ul>
 '''
 
